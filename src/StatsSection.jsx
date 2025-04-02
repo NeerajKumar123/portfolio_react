@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
+import { BiSmile,BiLogoProductHunt,BiHeadphone,BiGroup} from "react-icons/bi";
 
 const statsData = [
-  { icon: "bi-emoji-smile", end: 232, title: "Happy Clients", subtitle: "consequuntur quae" },
-  { icon: "bi-journal-richtext", end: 521, title: "Projects", subtitle: "adipisci atque cum quia aut" },
-  { icon: "bi-headset", end: 1453, title: "Hours Of Support", subtitle: "aut commodi quaerat" },
-  { icon: "bi-people", end: 32, title: "Hard Workers", subtitle: "rerum asperiores dolor" },
+  { icon: <BiSmile size={50} color="white" />, end: 20, title: "Happy Clients", subtitle: "Consequences that follow." },
+  { icon: <BiLogoProductHunt size={50} color="white" />, end: 30, title: "Projects", subtitle: "To obtain and with because or." },
+  { icon: <BiHeadphone  size={50} color="white" />, end: 500, title: "Hours Of Support", subtitle: "Or a convenient claim" },
+  { icon: <BiGroup  size={50} color="white" />, end: 10, title: "Hard Workers", subtitle: "Harsh suffering of matters" },
 ];
 
 const StatsSection = () => {
@@ -25,8 +26,10 @@ const StatsSection = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {statsData.map((stat, index) => (
-            <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <i className={`bi ${stat.icon} text-4xl text-indigo-600 dark:text-indigo-400`}></i>
+            <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md justify-center">
+               <div className="justify-center flex">
+               {stat.icon}
+                </div>
               <span className="block text-3xl font-bold text-gray-900 dark:text-white mt-2">
                 {counts[index]}
               </span>

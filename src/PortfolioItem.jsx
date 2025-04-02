@@ -1,33 +1,39 @@
 import React from 'react';
+import { BiZoomIn, BiLink } from "react-icons/bi";
 
-const PortfolioItem = () => {
+const PortfolioItem = ({ item }) => {
   return (
-    <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-books relative group overflow-hidden">
-      <div className="portfolio-content h-100 relative">
-        {/* Image with zoom effect */}
-        <img 
-          src="/books-2.jpg" 
-          className="img-fluid transition-transform transform group-hover:scale-110" 
-          alt="Books 2" 
-        />
-        
-        {/* Grayed overlay */}
-        <div className="absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-50 transition-opacity"></div>
-
-        {/* Portfolio info (text) */}
-        <div className="portfolio-info absolute bottom-0 left-0 right-0 p-4 text-white transition-all group-hover:text-yellow-400 group-hover:font-bold">
-          <h4>Books 2</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
-          
-          <a href="/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" className="glightbox preview-link text-white">
-            <i className="bi bi-zoom-in"></i>
+    <div className="relative group overflow-hidden w-full h-80 flex items-center justify-center">
+      {/* Background Image with Zoom Effect */}
+      <div
+        className="absolute inset-0 bg-cover bg-center transition-transform transform group-hover:scale-110"
+        style={{ backgroundImage: `url(${item?.image})` }}
+      ></div>
+      
+      {/* Grayed Overlay */}
+      <div className="absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-50 transition-opacity"></div>
+      
+      {/* Title on Top Right */}
+      <h4 className="absolute top-4 right-4 bg-black bg-opacity-50 text-white px-3 py-1 rounded-md text-sm">
+        {item?.title}
+      </h4>
+      
+      {/* Centered Icon Container */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="flex space-x-4 bg-black bg-opacity-50 p-2 rounded-lg">
+          <a href={item?.image} title="Zoom In" className="text-white hover:text-yellow-400">
+            <BiZoomIn size={24} />
           </a>
-          
-          <a href="portfolio-details.html" title="More Details" className="details-link text-white">
-            <i className="bi bi-link-45deg"></i>
+          <a href="portfolio-details.html" title="More Details" className="text-white hover:text-yellow-400">
+            <BiLink size={24} />
           </a>
         </div>
       </div>
+      
+      {/* Description at Bottom */}
+      <p className="absolute bottom-4 left-0 right-0 text-center text-white p-2 text-sm">
+        {item?.desc}
+      </p>
     </div>
   );
 }

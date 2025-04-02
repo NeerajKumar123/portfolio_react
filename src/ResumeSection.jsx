@@ -1,51 +1,50 @@
 const resumeData = {
     summary: {
-      name: "Brandon Johnson",
+      name: " iOS & React Native Expert | Mobile App developer",
       description:
-        "Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.",
+        "Passionate and results-driven iOS & React Native Developer with extensive experience in designing, developing, and optimizing high-performance mobile applications. Adept at leveraging cutting-edge technologies to build scalable, intuitive, and visually engaging apps.",
       contact: [
-        "Portland par 127, Orlando, FL",
-        "(123) 456-7891",
-        "alice.barkley@example.com",
+        "Building 23 ,Gurgaon sector 29 Haryana ",
+        "+91-8010993612",
+        "neerajkiet@gmail.com",
       ],
     },
     education: [
       {
-        degree: "Master of Fine Arts & Graphic Design",
-        year: "2015 - 2016",
-        institution: "Rochester Institute of Technology, Rochester, NY",
+        degree: "B.Tech (Computer Science & Engineering)",
+        year: "Jul 2008 – Jul 2011 | Ghaziabad, UP",
+        institution: "Krishna Institute of Engineering & Technology (GBTU)",
         description:
-          "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti.",
+          "Earned a B.Tech in Computer Science from KIET Engineering College, demonstrating a strong foundation in software development and technology.",
       },
       {
-        degree: "Bachelor of Fine Arts & Graphic Design",
+        degree: "Bachelor of Science (Mathematics)",
         year: "2010 - 2014",
-        institution: "Rochester Institute of Technology, Rochester, NY",
+        institution: "Meerut college, Meerut",
         description:
-          "Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis.",
+          "Earned a B.Sc. in Mathematics from Meerut College, Meerut, showcasing strong analytical and problem-solving skills.",
       },
     ],
     experience: [
       {
-        title: "Senior Graphic Design Specialist",
-        year: "2019 - Present",
-        company: "Experion, New York, NY",
+        title: "Lead Engineer Mobile Apps and Web Apps",
+        year: "2022 - Present",
+        company: "Tata Consultancy Services, India",
         responsibilities: [
-          "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
-          "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
-          "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
-          "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000",
+          "Leading a team of professionals through the entire project lifecycle—from requirement gathering and design to development and delivery—ensuring seamless execution, optimal performance, and high-quality outcomes.",
         ],
       },
       {
-        title: "Graphic Design Specialist",
-        year: "2017 - 2018",
-        company: "Stepping Stone Advertising, New York, NY",
+        title: "Lead Engineer Mobile Apps",
+        year: "2015 - 2022",
+        company: "Polibazaar.com, India",
         responsibilities: [
-          "Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements).",
-          "Managed up to 5 projects or tasks at a given time while under pressure",
-          "Recommended and consulted with clients on the most appropriate graphic design",
-          "Created 4+ design presentations and proposals a month for clients and account managers",
+          "Role: Served as Mobile Apps Tech Lead at Policybazaar.com.",
+          "Team Leadership: Led a team in developing and optimizing iOS (Objective-C) and React Native applications.",
+          "Business Implementation: Played a key role in implementing business requirements and managing app data logging.",
+          "Strategic Enhancements: Drove strategic improvements to enhance app performance and user experience.",
+          "Featured App: Contributed to the Paisabazaar mobile app, which was featured on the App Store.",
+          "Award-Winning Innovation: Led the development of PB-Inspect, recognized as the Most Innovative App by IFTA 2018 for its impact on car insurance processes."
         ],
       },
     ],
@@ -58,10 +57,6 @@ const resumeData = {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Resume</h2>
-            <p className="text-gray-600 dark:text-gray-300 mt-2">
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
-              quidem.
-            </p>
           </div>
   
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

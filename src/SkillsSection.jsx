@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
 
 const skillsData = [
-  { name: "HTML", value: 100 },
-  { name: "CSS", value: 90 },
-  { name: "JavaScript", value: 75 },
-  { name: "PHP", value: 80 },
-  { name: "WordPress/CMS", value: 90 },
-  { name: "Photoshop", value: 55 },
+  { name: "Objective-C, Swift, React Native, AutoLayout", value: 100 },
+  { name: "APNs, AVFoundation, UIKit, MapKit, CLLocation, Core Data", value: 95 },
+  { name: "JavaScript", value: 95 },
+  { name: "Flurry, AdMob, Lottie", value: 95 },
+  { name: "Web Services: JSON, XML APIs", value: 90 },
+  { name: "Version Control & Tools: Git and Guthub", value: 90 },
+  { name: "Payment Gateway Integration: RazorPay, PayU, Paynimo",   value: 95 },
+  { name: "Kotlin for Android Application developer", value: 95 },
+  { name: "Java and Java Scripts", value: 95 },
+  { name: "API Development swagger)", value: 95 },
 ];
 
 const SkillsSection = () => {
@@ -31,7 +35,7 @@ const SkillsSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Skills</h2>
           <p className="text-gray-600 dark:text-gray-300 mt-2">
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+          The necessity of its consequences arises from something, causing his escape indeed, with true sincerity
           </p>
         </div>
 

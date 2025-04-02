@@ -70,29 +70,7 @@ const Header = () => {
               <i className="bi bi-menu-button"></i> Dropdown
               <i className="bi bi-chevron-down ml-auto"></i>
             </button>
-            {isDropdownOpen && (
-              <ul className="bg-gray-800 rounded mt-2 p-2">
-                <li><a href="#" className="block p-2 hover:bg-gray-700 rounded">Dropdown 1</a></li>
-                {/* Deep Dropdown */}
-                <li>
-                  <button
-                    onClick={() => setIsDeepDropdownOpen(!isDeepDropdownOpen)}
-                    className="flex items-center gap-2 p-2 w-full hover:bg-gray-700 rounded"
-                  >
-                    Deep Dropdown <i className="bi bi-chevron-down ml-auto"></i>
-                  </button>
-                  {isDeepDropdownOpen && (
-                    <ul className="bg-gray-700 rounded mt-2 p-2">
-                      {[...Array(5)].map((_, index) => (
-                        <li key={index}><a href="#" className="block p-2 hover:bg-gray-600 rounded">Deep Dropdown {index + 1}</a></li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-                <li><a href="#" className="block p-2 hover:bg-gray-700 rounded">Dropdown 2</a></li>
-                <li><a href="#" className="block p-2 hover:bg-gray-700 rounded">Dropdown 3</a></li>
-              </ul>
-            )}
+            
           </li>
           <li>
             <a href="#contact" className="flex items-center gap-2 p-2 hover:bg-gray-700 rounded">
