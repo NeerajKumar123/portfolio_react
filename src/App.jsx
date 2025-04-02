@@ -17,10 +17,10 @@ import Contact from "./Contact"
 function App() {
   return (
     <div className="flex  bg-red-300 w-full">
-      <div className="w-72 bg-blue-500 text-white">
+      <div className="w-72">
         <Header />
       </div>
-      <div className="flex-1 bg-green-500 text-white">
+      <div className="flex-1">
         <HeroSection />
         <AboutSection />
         <StatsSection />
@@ -32,7 +32,6 @@ function App() {
         <Contact />
         <Footer />
       </div>
-
     </div>
   )
 }

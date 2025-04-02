@@ -7,10 +7,10 @@ const skillsData = [
   { name: "Flurry, AdMob, Lottie", value: 95 },
   { name: "Web Services: JSON, XML APIs", value: 90 },
   { name: "Version Control & Tools: Git and Guthub", value: 90 },
-  { name: "Payment Gateway Integration: RazorPay, PayU, Paynimo",   value: 95 },
-  { name: "Kotlin for Android Application developer", value: 95 },
+  { name: "Payment Gateway Integration: RazorPay, PayU, Paynimo",   value: 85 },
+  { name: "Kotlin for Android Application developer", value: 80 },
   { name: "Java and Java Scripts", value: 95 },
-  { name: "API Development swagger)", value: 95 },
+  { name: "API Development swagger", value: 95 },
 ];
 
 const SkillsSection = () => {

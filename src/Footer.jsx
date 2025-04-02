@@ -10,10 +10,10 @@ const Footer = () => {
             </p>
           </div>
           <div className="credits text-sm mt-2">
-            Designed by 
-            <a href="https://bootstrapmade.com/" className="text-blue-500 hover:underline ml-1">BootstrapMade</a>
+            Designed and Developed by 
+            <a href="https://bootstrapmade.com/" className="text-blue-500 hover:underline ml-1">The Catalyst Softwares</a>
             Distributed by 
-            <a href="https://themewagon.com" className="text-blue-500 hover:underline ml-1">ThemeWagon</a>
+            <a href="https://themewagon.com" className="text-blue-500 hover:underline ml-1">Neeraj Prajapati</a>
           </div>
         </div>
       </footer>

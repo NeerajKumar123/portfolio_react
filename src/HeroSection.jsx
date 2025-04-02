@@ -22,7 +22,7 @@ const HeroSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <h2 className="text-4xl font-bold">Alex Smith</h2>
+        <h2 className="text-4xl font-bold">Neeraj Prajapati</h2>
         <p className="text-lg mt-2">
           I'm{" "}
           <ReactTyped
@@ -30,7 +30,7 @@ const HeroSection = () => {
             typeSpeed={50}
             backSpeed={30}
             loop
-            className="font-semibold text-blue-400"
+            className="font-semibold text-5xl bg-gradient-to-r from-red-500 to-green-500 bg-clip-text text-transparent"
           />
         </p>
       </motion.div>

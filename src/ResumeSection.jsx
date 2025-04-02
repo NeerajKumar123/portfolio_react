@@ -62,10 +62,10 @@ const resumeData = {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Summary & Education */}
             <div>
-              <h3 className="text-2xl font-semibold text-indigo-600 dark:text-indigo-400">Summary</h3>
+              <h3 className="text-2xl font-semibold text-white">Summary</h3>
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-4">
-                <h4 className="text-xl font-bold">{resumeData.summary.name}</h4>
-                <p className="text-gray-600 dark:text-gray-300 mt-2">{resumeData.summary.description}</p>
+                <h4 className="text-xl font-bold text-white">{resumeData.summary.name}</h4>
+                <p className="text-white mt-2">{resumeData.summary.description}</p>
                 <ul className="mt-4 space-y-2 text-gray-500 dark:text-gray-400">
                   {resumeData.summary.contact.map((item, index) => (
                     <li key={index}>📍 {item}</li>
@@ -73,12 +73,12 @@ const resumeData = {
                 </ul>
               </div>
   
-              <h3 className="text-2xl font-semibold text-indigo-600 dark:text-indigo-400 mt-8">
+              <h3 className="text-2xl font-semibold text-white mt-8">
                 Education
               </h3>
               {resumeData.education.map((edu, index) => (
                 <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-4">
-                  <h4 className="text-xl font-bold">{edu.degree}</h4>
+                  <h4 className="text-xl font-bold text-white">{edu.degree}</h4>
                   <h5 className="text-gray-600 dark:text-gray-400">{edu.year}</h5>
                   <p className="text-gray-500 dark:text-gray-300 mt-2">{edu.institution}</p>
                   <p className="text-gray-600 dark:text-gray-300 mt-2">{edu.description}</p>
@@ -88,12 +88,12 @@ const resumeData = {
   
             {/* Professional Experience */}
             <div>
-              <h3 className="text-2xl font-semibold text-indigo-600 dark:text-indigo-400">
+              <h3 className="text-2xl font-semibold text-white">
                 Professional Experience
               </h3>
               {resumeData.experience.map((exp, index) => (
                 <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-4">
-                  <h4 className="text-xl font-bold">{exp.title}</h4>
+                  <h4 className="text-xl font-bold text-white">{exp.title}</h4>
                   <h5 className="text-gray-600 dark:text-gray-400">{exp.year}</h5>
                   <p className="text-gray-500 dark:text-gray-300 mt-2">{exp.company}</p>
                   <ul className="mt-4 list-disc pl-5 text-gray-600 dark:text-gray-300">

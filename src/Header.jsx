@@ -21,7 +21,7 @@ const Header = () => {
 
       {/* Logo */}
       <a href="index.html" className="text-center">
-        <h1 className="text-xl font-bold">Alex Smith</h1>
+        <h1 className="text-xl font-bold">Neeraj Prajapati</h1>
       </a>
 
       {/* Social Links */}
@@ -60,17 +60,6 @@ const Header = () => {
             <a href="#services" className="flex items-center gap-2 p-2 hover:bg-gray-700 rounded">
               <i className="bi bi-hdd-stack"></i> Services
             </a>
-          </li>
-          {/* Dropdown Menu */}
-          <li className="relative">
-            <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="flex items-center gap-2 p-2 w-full hover:bg-gray-700 rounded"
-            >
-              <i className="bi bi-menu-button"></i> Dropdown
-              <i className="bi bi-chevron-down ml-auto"></i>
-            </button>
-            
           </li>
           <li>
             <a href="#contact" className="flex items-center gap-2 p-2 hover:bg-gray-700 rounded">
