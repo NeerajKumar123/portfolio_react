@@ -17,17 +17,17 @@ import Contact from "./Contact"
 function App() {
   return (
     <div className="flex  bg-red-300 w-full">
-      {/* <div className="w-72 bg-blue-500 text-white">
+      <div className="w-72 bg-blue-500 text-white">
         <Header />
-      </div> */}
+      </div>
       <div className="flex-1 bg-green-500 text-white">
-        {/* <HeroSection />
+        <HeroSection />
         <AboutSection />
         <StatsSection />
         <SkillsSection />
-        <ResumeSection /> */}
-        {/* <Portfolio /> */}
-        {/* <ServicesSection /> */}
+        <ResumeSection />
+        <Portfolio />
+        <ServicesSection />
         <Testimonials />
         <Contact />
         <Footer />
